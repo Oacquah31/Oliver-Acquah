@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website - Oliver Acquah</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+
+  <style>
+    section {
+      padding: 80px 0;
+    }
+
+    .hero-text {
+      padding-top: 120px;
+      text-align: center;
+    }
+
+    .card {
+      height: 100%;
+    }
+
+    .card-body {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .imageAboutPage {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .social-icons a {
+      font-size: 24px;
+      margin: 0 10px;
+      color: #333;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: green;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Oliver Acquah</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- hero section -->
+  <section class="bgimage" id="home">
+    <div class="container-fluid">
+      <div class="hero-text">
+        <p class="hero_desc">Hi, I am</p>
+        <h1 class="hero_title">Oliver Acquah</h1>
+        <p class="hero_desc">Data Analyst | Business Intelligence Analyst | Business Analyst</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="container">
+      <h1 class="text-center">About Me</h1>
+      <div class="row mt-4">
+        <div class="col-lg-4">
+          <img src="images/about 1.1.jpg" class="imageAboutPage" alt="">
+        </div>
+        <div class="col-lg-8">
+         <p>Oliver Acquah is a data-driven and detail-oriented Data Analyst with a strong foundation in data analytics, telecommunications engineering, and business intelligence. He holds a Bachelor's degree in Telecommunication Engineering from KNUST,
+            and has been certified in Advanced Data Science and Analytics through a program by Thrive Africa, awarded by Koforidua Technical University. He also holds a certification in Data Analytics Essentials from Cisco.</p>
+          <p>He specializes in identifying trends that guide strategic decision-making using advanced tools to deliver impactful visualizations, dashboards, and reports. Oliver is committed to helping organizations drive innovation and growth through data.</p>
+          <p>He has worked on real-world projects across fintech, aviation safety, agriculture, and social media analytics. Highlights include dashboards for PaySwift, GhanaPay, and Cornerstone, plus calibration work for Ghana Civil Aviation Authority.</p>
+          <p>His toolkit includes Power BI, Excel, SQL, Python, Google Sheets, and Looker Studio. He excels in cleaning, analyzing, and visualizing data in real business contexts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- portfolio section -->
+  <section id="portfolio">
+    <div class="container">
+      <h1 class="text-center">Portfolio</h1>
+      <div class="row">
+        <!-- Project 1 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/fb.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Cornerstone Facebook Report</h4>
+              <p class="card-text">Social media performance dashboard with insights into timing, content impact, and audience engagement. Guided a 20% increase in followers.</p>
+              <div class="text-center">
+                <a href="https://github.com/Oacquah31/Cornerstone-facebook-Analysis.git" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/pizza.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Pizza Sales Dashboard</h4>
+              <p class="card-text">Power BI dashboard analyzing sales trends, order times, and top products to inform menu and marketing decisions.</p>
+              <div class="text-center">
+                <a href="https://github.com/Oacquah31/pizza_sales_dashboard.git" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/hr.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">HR Analytics</h4>
+              <p class="card-text">A dynamic HR dashboard showing employee distribution, promotion eligibility, service years, and retrenchment trends.</p>
+              <div class="text-center">
+                <a href="https://github.com/Oacquah31/HR-Analysis.git" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br>
+
+      <div class="row">
+        <!-- Project 4 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/payswift.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">PaySwift Analysis</h4>
+              <p class="card-text">Loan risk and feature adoption analytics using real customer data, segmentation, churn modeling, and visual storytelling.</p>
+              <div class="text-center">
+                <a href="https://github.com/Oacquah31/Payswift.git" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/blinkit.png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Blinkit Sales Dashboard</h4>
+              <p class="card-text">Outlet and item-level sales analytics for Blinkit India using Power BI to optimize location and product decisions.</p>
+              <div class="text-center">
+                <a href="https://github.com/Oacquah31/Blinkit.git" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="col-lg-4 mt-4">
+          <div class="card">
+            <img class="card-img-top" src="images/ghanapay (1).png" alt="Card image">
+            <div class="card-body">
+              <h4 class="card-title">Blog App (Coming Soon)</h4>
+              <p class="card-text">Demo project placeholder for a blogging platform with analytics integration.</p>
+              <div class="text-center">
+                <a href="#" class="btn btn-success">Link</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section id="contact">
+    <div class="container contactContent">
+      <h1 class="text-center">Contact Me</h1>
+      <div class="col-lg-6 mx-auto">
+        <form>
+          <input type="text" class="form-control form-control-lg" placeholder="Name">
+          <input type="email" class="form-control mt-3" placeholder="Email">
+          <input type="text" class="form-control mt-3" placeholder="Subject">
+          <textarea class="form-control mt-3" rows="5" placeholder="Project Details"></textarea>
+        </form>
+        <a href="mailto:oacquah31@gmail.com">
+          <button type="button" class="btn btn-success mt-3">Contact Me</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer id="footer" class="bg-light text-center py-3">
+    <div class="container">
+      <div class="social-icons">
+        <a href="https://x.com/khobylight" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/oliver-acquah-640193220/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/accounts/login/?next=%2F_captain.smith%2F&source=omni_redirect" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script/script.js"></script>
+</body>
+</html>
